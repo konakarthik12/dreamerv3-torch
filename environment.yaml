@@ -11,7 +11,7 @@ dependencies:
   - wheel<0.40.0
   - pytorch-gpu=2.0.0
   - torchvision
-  - cudatoolkit=11.0.3
+  - cudatoolkit=11.4
   - pillow
   - numpy=1.23.5
   - pandas
@@ -25,5 +25,4 @@ dependencies:
   - tensorboard
   - ruamel.yaml==0.17.4
   - free-mujoco-py
-  - pip:
-      - dm-control==0.0.403778684
+  - dm_control=1.0.9
