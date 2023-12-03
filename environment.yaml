@@ -4,11 +4,12 @@ channels:
   - pytorch
   - nvidia
   - conda-forge
+  - hcc
 dependencies:
   - python=3.8
   - setuptools=59.5.0
   - wheel<0.40.0
-  - pytorch-gpu=1.9.1
+  - pytorch-gpu=2.0.0
   - torchvision
   - cudatoolkit=11.0.3
   - pillow
@@ -23,5 +24,6 @@ dependencies:
   - pip
   - tensorboard
   - ruamel.yaml==0.17.4
+  - free-mujoco-py
   - pip:
       - dm-control==0.0.403778684
