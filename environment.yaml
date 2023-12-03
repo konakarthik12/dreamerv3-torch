@@ -5,6 +5,7 @@ channels:
   - nvidia
 dependencies:
   - python=3.9
+  - pip
   - setuptools=65.5.0
   - wheel<0.40.0
   - pytorch
@@ -16,4 +17,5 @@ dependencies:
   - ruamel.yaml==0.17.4
   - mujoco=2.3
   - moviepy==1.0.3
+  - packaging
 
