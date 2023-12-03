@@ -1,4 +1,4 @@
-name: tdmpc
+name: dreamer
 channels:
   - defaults
   - pytorch
@@ -6,13 +6,13 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+  - setuptools=59.5.0
+  - wheel<0.40.0
   - pytorch-gpu=1.9.1
   - torchvision
   - cudatoolkit=11.0.3
   - pillow
   - numpy=1.23.5
-  - setuptools=65.5.0
-  - wheel<0.40.0
   - pandas
   - omegaconf
   - termcolor
@@ -24,4 +24,4 @@ dependencies:
   - tensorboard
   - ruamel.yaml==0.17.4
   - pip:
-    - dm-control==0.0.403778684
+      - dm-control==0.0.403778684
