@@ -4,8 +4,7 @@ import os
 import pathlib
 import sys
 
-os.environ["MUJOCO_GL"] = "osmesa"
-
+assert "MUJOCO_GL" in os.environ, "MUJOCO_GL not set"
 import numpy as np
 import ruamel.yaml as yaml
 
